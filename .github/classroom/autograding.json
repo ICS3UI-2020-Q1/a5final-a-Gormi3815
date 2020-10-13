@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5",
+      "output": "Please enter the length of the line:\r\nblack, white, black, white, black",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "8",
+      "output": "Please enter the length of the line:\r\nblack, white, black, white, black, white, black, white\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "None",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "0",
+      "output": "Please enter the length of the line:\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "one",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "1",
+      "output": "Please enter the length of the line:\r\nblack",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
